@@ -154,6 +154,10 @@ li {
         border: 2px solid gray;
         cursor: pointer;
       }
+
+      &--selected {
+        border: 2px solid gray;
+      }
     }
   }
 

@@ -192,6 +192,10 @@ li {
   cursor: pointer;
 }
 
+.canvas-wrapper .size-switcher .size-switcher__item--selected {
+  border: 2px solid gray;
+}
+
 .canvas-wrapper .canvas {
   width: 512px;
   height: 512px;
