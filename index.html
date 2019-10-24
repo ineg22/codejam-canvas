@@ -19,10 +19,56 @@
         <h1>Codejam - Palette</h1>
       </div>
       <div class="dots">
-          <img src="./assets/menu-icon.svg" alt="menu">
+        <img src="./assets/menu-icon.svg" alt="menu">
       </div>
     </header>
-    <main class="main"></main>
+    <main class="main">
+      <div class="tools-wrapper">
+        <div class="main-tools">
+          <ul class="main-tools__list">
+            <li class="main-tools__item">
+              <img src="./assets/bucket-icon.svg" alt="bucket">
+              <span>Paint bucket</span>
+            </li>
+            <li class="main-tools__item">
+              <img src="./assets/picker-icon.svg" alt="picker">
+              <span>Choose color</span>
+            </li>
+            <li class="main-tools__item">
+              <img src="./assets/move-icon.svg" alt="move">
+              <span>Move</span>
+            </li>
+            <li class="main-tools__item">
+              <img src="./assets/transform-icon.svg" alt="transform">
+              <span>Transform</span>
+            </li>
+          </ul>
+        </div>
+        <div class="color-tools">
+          <ul class="color-tools__list">
+            <li class="color-tools__item">
+              <div class="color color--current"></div>
+              <span>Current color</span>
+            </li>
+            <li class="color-tools__item">
+              <div class="color color--prev"></div>
+              <span>Prev color</span>
+            </li>
+            <li class="color-tools__item">
+              <div class="color color--red"></div>
+              <span>red</span>
+            </li>
+            <li class="color-tools__item">
+              <div class="color color--blue"></div>
+              <span>blue</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="canvas-wrapper">
+        <canvas ></canvas>
+      </div>
+    </main>
   </div>
   <script src="./js/index.js"></script>
 </body>
