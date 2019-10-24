@@ -66,11 +66,32 @@
         </div>
       </div>
       <div class="canvas-wrapper">
-        <canvas ></canvas>
+        <div class="size-switcher">
+          <div class="size-switcher__item" id="sw4">
+            <p>4x4 matrix</p>
+          </div>
+          <div class="size-switcher__item" id="sw32">
+            <p>32x32 matrix</p>
+          </div>
+          <div class="size-switcher__item" id="sw-pic">
+            <p>picture</p>
+          </div>
+        </div>
+        <div class="canvas">
+          <canvas id="cv4" width="512" height="512">
+            update your browser
+          </canvas>
+          <canvas id="cv32" width="512" height="512" class="hidden">
+            update your browser
+          </canvas>
+          <canvas id="cv-pic" width="512" height="512" class="hidden">
+            update your browser
+          </canvas>
+        </div>
       </div>
     </main>
+    <script src="./js/index.js"></script>
   </div>
-  <script src="./js/index.js"></script>
 </body>
 
 </html>
