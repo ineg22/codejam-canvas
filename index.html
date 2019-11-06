@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>codejam-canvas</title>
+  <link rel="stylesheet" href="./style/style.css">
+</head>
+
+<body>
+  <div class="global-wrapper">
+    <header class="header">
+      <div class="header__left">
+        <div class="burger">
+          <img src="./assets/nav-icon.svg" alt="nav">
+        </div>
+        <h1>Codejam - Palette</h1>
+      </div>
+      <div class="dots">
+        <img src="./assets/menu-icon.svg" alt="menu">
+      </div>
+    </header>
+    <main class="main">
+      <div class="tools-wrapper">
+        <div class="main-tools">
+          <ul class="main-tools__list">
+            <li class="main-tools__item">
+              <img src="./assets/bucket-icon.svg" alt="bucket">
+              <span>Paint bucket</span>
+            </li>
+            <li class="main-tools__item">
+              <img src="./assets/picker-icon.svg" alt="picker">
+              <span>Choose color</span>
+            </li>
+            <li class="main-tools__item">
+              <img src="./assets/move-icon.svg" alt="move">
+              <span>Move</span>
+            </li>
+            <li class="main-tools__item">
+              <img src="./assets/transform-icon.svg" alt="transform">
+              <span>Transform</span>
+            </li>
+          </ul>
+        </div>
+        <div class="color-tools">
+          <ul class="color-tools__list">
+            <li class="color-tools__item">
+              <div class="color color--current"></div>
+              <span>Current color</span>
+            </li>
+            <li class="color-tools__item">
+              <div class="color color--prev"></div>
+              <span>Prev color</span>
+            </li>
+            <li class="color-tools__item">
+              <div class="color color--red"></div>
+              <span>red</span>
+            </li>
+            <li class="color-tools__item">
+              <div class="color color--blue"></div>
+              <span>blue</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="canvas-wrapper">
+        <div class="size-switcher">
+          <div class="size-switcher__item size-switcher__item--selected" id="sw4">
+            <p>4x4 matrix</p>
+          </div>
+          <div class="size-switcher__item" id="sw32">
+            <p>32x32 matrix</p>
+          </div>
+          <div class="size-switcher__item" id="sw-pic">
+            <p>picture</p>
+          </div>
+        </div>
+        <div class="canvas">
+          <canvas id="cv4" width="512" height="512">
+            update your browser
+          </canvas>
+          <canvas id="cv32" width="512" height="512" class="hidden">
+            update your browser
+          </canvas>
+          <canvas id="cv-pic" width="512" height="512" class="hidden">
+            update your browser
+          </canvas>
+        </div>
+      </div>
+    </main>
+    <script src="./js/index.js"></script>
+  </div>
+</body>
+
+</html>
