@@ -82,6 +82,10 @@ li {
     align-items: center;
     height: 50px;
 
+    border: 2px solid transparent;
+
+    user-select: none;
+
     img {
       margin: 0 20px 0 10px;
     }
@@ -102,6 +106,10 @@ li {
     display: flex;
     align-items: center;
     height: 50px;
+
+    border: 2px solid transparent;
+
+    user-select: none;
 
     .color {
       width: 20px;
@@ -150,6 +158,10 @@ li {
     .size-switcher__item {
       padding: 0 20px 0 20px;
 
+      border: 2px solid transparent;
+
+      user-select: none;
+
       &:hover {
         border: 2px solid gray;
         cursor: pointer;
@@ -164,6 +176,7 @@ li {
   .canvas {
     width: 512px;
     height: 512px;
+    margin-top: 20px;
 
     background-color: lightgray;
   }
