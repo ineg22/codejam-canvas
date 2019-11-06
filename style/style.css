@@ -103,6 +103,11 @@ li {
       -ms-flex-align: center;
           align-items: center;
   height: 50px;
+  border: 2px solid transparent;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
 }
 
 .tools-wrapper .main-tools__item img {
@@ -128,6 +133,11 @@ li {
       -ms-flex-align: center;
           align-items: center;
   height: 50px;
+  border: 2px solid transparent;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
 }
 
 .tools-wrapper .color-tools__item .color {
@@ -185,6 +195,11 @@ li {
 
 .canvas-wrapper .size-switcher .size-switcher__item {
   padding: 0 20px 0 20px;
+  border: 2px solid transparent;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
 }
 
 .canvas-wrapper .size-switcher .size-switcher__item:hover {
@@ -199,6 +214,7 @@ li {
 .canvas-wrapper .canvas {
   width: 512px;
   height: 512px;
+  margin-top: 20px;
   background-color: lightgray;
 }
 
