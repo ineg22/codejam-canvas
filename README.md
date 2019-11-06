@@ -1,1 +1,1 @@
-https://ineg22.github.io/codejam-canvas
+on hosting - [netlify](https://admiring-kowalevski-684549.netlify.com)
